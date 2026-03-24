@@ -5,7 +5,7 @@ HabitRPG - Aplicación de Gamificación de Hábitos
 import sys
 import os
 
-# ✅ IMPORTANTE: Agregar ruta del proyecto al path de Python
+#IMPORTANTE: Agregar ruta del proyecto al path de Python
 project_root = os.path.dirname(os.path.abspath(__file__))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
@@ -13,7 +13,7 @@ if project_root not in sys.path:
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-# ✅ Imports absolutos
+#Imports absolutos
 from views.windows import HabitApp
 from views.theme import ThemeManager
 
