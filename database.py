@@ -99,7 +99,7 @@ class Database:
             self.cursor.execute(query, params)
             return self.cursor.fetchall()
         except sqlite3.Error as e:
-            print(f"❌ Error en BD: {e}")
+            print(f" Error en BD: {e}")
             return []
     
     def fetch_one(self, query, params=()):
@@ -111,7 +111,7 @@ class Database:
             self.cursor.execute(query, params)
             return self.cursor.fetchone()
         except sqlite3.Error as e:
-            print(f"❌ Error en BD: {e}")
+            print(f"Error en BD: {e}")
             return None
     
     def get_last_id(self):
