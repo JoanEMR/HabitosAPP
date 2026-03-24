@@ -1,13 +1,13 @@
-# 🎮 HabitosAPP - Gamificación de Hábitos
+#  HabitosAPP - Gamificación de Hábitos
 
 Aplicación de escritorio para convertir la disciplina en un juego.
 
-## 📋 Requisitos
+##  Requisitos
 
 - Python 3.8+
 - pip
 
-## 🚀 Instalación
+##  Instalación
 
 ```bash
 # 1. Clonar repositorio
