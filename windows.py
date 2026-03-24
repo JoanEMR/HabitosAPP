@@ -6,7 +6,7 @@ Interfaz principal de la aplicación
 import sys
 import os
 
-# ✅ IMPORTANTE: Agregar ruta raíz al path
+# IMPORTANTE: Agregar ruta raíz al path
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
@@ -17,7 +17,7 @@ from tkcalendar import DateEntry
 from PIL import ImageTk, Image
 from datetime import datetime, date
 
-# ✅ Imports absolutos con ruta completa
+# Imports absolutos con ruta completa
 from models.database import Database
 from controllers.logic import GameLogic
 from controllers.validators import Validator
